@@ -1,0 +1,58 @@
+/*#5BB558 *warna utama*/
+
+/*NavBar*/
+.navbar-brand {
+	font-family: viga;
+	font-size: 33px;
+}
+
+/*akhir Navbar*/
+/* Dekstop Version*/
+@media (min-width: 992px) {
+	.nav-link,.navbar-brand,.dd{
+		color:white !important;
+		text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+	}
+
+	.nav-link {
+	text-transform: uppercase;
+	margin-right: 30px;
+	}
+
+	.nav-link:hover::after{
+	content: '';
+	display: block;
+	border-bottom: 3px solid #ffffff;
+	width: 50%;
+	margin: auto;
+	padding-bottom: 5px;
+	margin-bottom: -8px;
+	}
+
+	.jumbotron{
+		margin-top: -90px;
+	}
+
+	.jumbotron .display-4{
+		font-size: 65px !important;
+	}
+}
+
+
+.jumbotron{
+	background-image: url(img/jumbotron2.jpg);
+	background-size: cover;
+	height: 640px;
+	text-align: center;
+}
+
+
+
+.jumbotron .display-4{
+	color: white;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+	font-family: caveat !important;
+	font-weight: 200px;
+	margin-top: 150px;
+	font-size: 33px;
+}
