@@ -1,58 +1,116 @@
-/*#5BB558 *warna utama*/
+/*Navbar*/
 
-/*NavBar*/
-.navbar-brand {
-	font-family: viga;
-	font-size: 33px;
+.navbar-brand{
+	font-family: recursive;
+	font-size: 30px;
 }
 
-/*akhir Navbar*/
-/* Dekstop Version*/
-@media (min-width: 992px) {
-	.nav-link,.navbar-brand,.dd{
-		color:white !important;
-		text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
-	}
-
-	.nav-link {
-	text-transform: uppercase;
-	margin-right: 30px;
-	}
-
-	.nav-link:hover::after{
-	content: '';
-	display: block;
-	border-bottom: 3px solid #ffffff;
-	width: 50%;
-	margin: auto;
-	padding-bottom: 5px;
-	margin-bottom: -8px;
-	}
-
-	.jumbotron{
-		margin-top: -90px;
-	}
-
-	.jumbotron .display-4{
-		font-size: 65px !important;
-	}
+.navbar-nav ,.btn-group{
+	font-family: recursive;
+	
 }
-
 
 .jumbotron{
-	background-image: url(img/jumbotron2.jpg);
+	background-color: white;
 	background-size: cover;
-	height: 640px;
+}
+
+.jumbotron .display-4{
+	font-family: sriracha;
+	color: #4a4a4a;
+	margin-top: 50px;
+	text-align: center;
+	font-size: 35px;
+}
+
+span{
+	color: #694ac4;
+}
+
+/*info*/
+
+.info{
+	margin-top: 120px;
 	text-align: center;
 }
 
+.info img {
+	width: 600px;
+}
+
+.info h3{
+	color :#4a4a4a;
+	font-family: sriracha;
+	font-size: 45px;
+	margin-top: 40px;
+}
+
+.info p{
+	margin-top: 35px;
+}
+
+.info .buttonku{
+	margin-top: 20px;
+}
 
 
-.jumbotron .display-4{
-	color: white;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
-	font-family: caveat !important;
-	font-weight: 200px;
-	margin-top: 150px;
-	font-size: 33px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Desktop Version*/
+
+@media (min-width: 992px) {
+	.nav-link,.btn{
+	text-transform: uppercase;
+	margin-right: 30px;
+	color: black !important;
+	}
+
+	.nav-link:hover{
+	color: #694ac4 !important;
+	}
+
+	.btn:hover{
+		color: #694ac4 !important;
+	}
+
+	.jumbotron{
+		margin-top: -75px;
+	}
+
+	.jumbotron{
+		background-image: url(img/jumbotron2.png);
+		background-size: cover;
+		height: 700px;
+	}
+
+	.jumbotron .display-4{
+		font-family: sriracha;
+		color: #4a4a4a;
+		margin-top: 150px;
+		text-align: left;
+		font-size: 50px;
+	}
+
+	.info {
+		text-align: left;
+	}
+
 }

@@ -1,0 +1,106 @@
+/*Button Primer*/
+
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+		.buttonku{
+			text-align:center;
+		}
+
+		a.buttonku-respon{
+			border-radius: 10px;
+			margin:3px;
+			height:30px auto;
+			padding:10px 30px;
+			color: #fff;
+			display:inline-block;
+			text-decoration:none;
+			overflow:hidden;
+			text-align:center;
+			line-height:1.6;
+			font-size:16px;
+			font-family:'Kanit',sans-serif;
+			background:-webkit-linear-gradient(left,#4a4a4a 0%,#4a4a4a 50%,#694ac4 50%);
+			background:-moz-linear-gradient(left,#4a4a4a 0%,#4a4a4a 50%,#694ac4 50%);
+			background:-ms-linear-gradient(left,#4a4a4a 0%,#4a4a4a 50%,#694ac4 50%);
+			background:-o-linear-gradient(left,#4a4a4a 0%,#4a4a4a 50%,#694ac4 50%);
+			background:linear-gradient(to right,#4a4a4a 0%,#4a4a4a 50%,#694ac4 50%);
+			background-size:200% 100%;
+			background-position:100% 0;
+			-webkit-transition:all 0.3s;
+			-moz-transition:all 0.3s;
+			-ms-transition:all 0.3s;
+			-o-transition:all 0.3s;
+			transition:all 0.3s
+		}
+		a.buttonku-respon:hover{
+			background-position:0 0;
+		}
+		@media only screen and(max-width: 720px){
+			.buttonku-respon{
+				width:95%;
+			}
+		}
+
+/*Jumbotron Button*/
+
+.jumbotron .buttonku{
+	position: relative;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.jumbotron .buttonku-2{
+	margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/*Button Second*/
+
+@import url('https://fonts.googleapis.com/css?family=Kanit');
+		.buttonku-2{
+			text-align:center;
+
+		}
+
+		a.buttonku-respon-2{
+			border-radius: 10px;
+			margin:3px;
+			height:30px auto;
+			padding:10px 30px;
+			color: #fff;
+			display:inline-block;
+			text-decoration:none;
+			overflow:hidden;
+			text-align:center;
+			line-height:1.6;
+			font-size:16px;
+			font-family:'Kanit',sans-serif;
+			background:-webkit-linear-gradient(left,#694ac4 0%,#694ac4 50%,#4a4a4a 50%);
+			background:-moz-linear-gradient(left,#694ac4 0%,#694ac4 50%,#4a4a4a 50%);
+			background:-ms-linear-gradient(left,#694ac4 0%,#694ac4 50%,#4a4a4a 50%);
+			background:-o-linear-gradient(left#694ac4 0%,#694ac4 50%,#4a4a4a 50%);
+			background:linear-gradient(to right,#694ac4 0%,#694ac4 50%,#4a4a4a 50%);
+			background-size:200% 100%;
+			background-position:100% 0;
+			-webkit-transition:all 0.3s;
+			-moz-transition:all 0.3s;
+			-ms-transition:all 0.3s;
+			-o-transition:all 0.3s;
+			transition:all 0.3s
+		}
+		a.buttonku-respon-2:hover{
+			background-position:0 0;
+		}
+		@media only screen and(max-width: 720px){
+			.buttonku-respon-2{
+				width:95%;
+			}
+		}
+
